@@ -182,7 +182,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <h4 class="modal-title">Cadastrar</h4>
         </div>
         <div class="modal-body">
-          <form method="post" action="<?= site_url('home/addOptions') ?>">
+          <form method="post" action="<?= site_url('main/addOptions') ?>">
             <div class="form-group">
               <label for="exampleInputEmail1">Qual a categoria?</label>
               <select class="form-control" name="column">
